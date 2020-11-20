@@ -1,0 +1,77 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		8CFB6F9B25673B6600FAF44C /* SinglyLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SinglyLinkedList.cpp; sourceTree = "<group>"; };
+		8CFB6F9C25673B6600FAF44C /* SinglyLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SinglyLinkedList.hpp; sourceTree = "<group>"; };
+		8CFB6F9D25673F3E00FAF44C /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8CFB6F9425673AC400FAF44C = {
+			isa = PBXGroup;
+			children = (
+				8CFB6F9B25673B6600FAF44C /* SinglyLinkedList.cpp */,
+				8CFB6F9C25673B6600FAF44C /* SinglyLinkedList.hpp */,
+				8CFB6F9D25673F3E00FAF44C /* Main.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		8CFB6F9525673AC400FAF44C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+			};
+			buildConfigurationList = 8CFB6F9825673AC400FAF44C /* Build configuration list for PBXProject "LinkedLists" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CFB6F9425673AC400FAF44C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		8CFB6F9925673AC400FAF44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8CFB6F9A25673AC400FAF44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CFB6F9825673AC400FAF44C /* Build configuration list for PBXProject "LinkedLists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CFB6F9925673AC400FAF44C /* Debug */,
+				8CFB6F9A25673AC400FAF44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CFB6F9525673AC400FAF44C /* Project object */;
+}
