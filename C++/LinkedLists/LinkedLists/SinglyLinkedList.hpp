@@ -31,6 +31,7 @@ public:
     bool isInList(int val);
     void reverse();
     void clear();
+    int getRoot();
 };
 
 #endif /* SinglyLinkedList_hpp */

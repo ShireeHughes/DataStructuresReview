@@ -97,6 +97,10 @@ void SinglyLinkedList::reverse() {
     root = current;
 }
 
+int SinglyLinkedList::getRoot() {
+    return root->value;
+}
+
 void SinglyLinkedList::clear() {
     root = NULL;
 }
