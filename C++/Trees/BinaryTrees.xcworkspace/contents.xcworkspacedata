@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:BinaryTree.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:BinaryTree.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:Main.cpp">
+   </FileRef>
+</Workspace>
