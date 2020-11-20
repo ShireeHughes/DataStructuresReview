@@ -13,6 +13,7 @@ CFLAGS = -g -Wall
 # Executables
 # -------------------
 STACK = myStack
+QUEUE = myQueue
 REVERSED_LINKED_LIST = reversedLinkedList
 BINARY_TREES = binaryTree
 
@@ -20,6 +21,7 @@ BINARY_TREES = binaryTree
 # TARGETS
 #
 # - stack
+# - queue
 # - reversedLL
 # - binary
 # -------------------
@@ -27,7 +29,12 @@ BINARY_TREES = binaryTree
 stack: $(STACK)
 
 $(STACK): StacksArraysQueues/Main.cpp
-	$(CC) $(CFLAGS) -o $(STACK)  StacksArraysQueues/Main.cpp  StacksArraysQueues/myStack.cpp LinkedLists/LinkedLists/SinglyLinkedList.cpp
+	$(CC) $(CFLAGS) -o $(STACK)  StacksArraysQueues/Main.cpp  StacksArraysQueues/myStack.cpp
+
+queue: $(QUEUE)
+
+$(QUEUE): StacksArraysQueues/QueueTest.cpp
+	$(CC) $(CFLAGS) -o $(QUEUE)  StacksArraysQueues/QueueTest.cpp  StacksArraysQueues/myQueue.cpp LinkedLists/LinkedLists/SinglyLinkedList.cpp
 
 
 reversedLL: $(REVERSED_LINKED_LIST)
@@ -47,6 +54,8 @@ getDiameter: $(BINARY_TREES)
 clean:
 	$(RM) $(STACK) 
 	$(RM) $(STACK).dSYM
+	$(RM) $(QUEUE) 
+	$(RM) $(QUEUE).dSYM
 	$(RM) $(REVERSED_LINKED_LIST)
 	$(RM) $(REVERSED_LINKED_LIST).dSYM
 	$(RM) $(BINARY_TREES)

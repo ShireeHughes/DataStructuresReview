@@ -9,3 +9,6 @@ a.out
 C++/.DS_Store
 C++/LinkedLists/.DS_Store
 C++/StacksArraysQueues/.DS_Store
+C++/myStack
+C++/myStack.dSYM/Contents/Resources/DWARF/myStack
+C++/myQueue.dSYM/Contents/Resources/DWARF/myQueue

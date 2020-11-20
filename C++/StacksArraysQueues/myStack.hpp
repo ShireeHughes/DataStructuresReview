@@ -8,12 +8,15 @@
 #ifndef myStack_hpp
 #define myStack_hpp
 
+#define MAX_SIZE 100
+
 #include <stdio.h>
-#include "../LinkedLists/LinkedLists/SinglyLinkedList.hpp"
 
 class myStack {
 private:
-    SinglyLinkedList * stackList;
+    int stackList[MAX_SIZE];
+    int numElements;
+    
 public:
     myStack();
     ~myStack();

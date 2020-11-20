@@ -8,17 +8,22 @@
 #include "myStack.hpp"
 
 myStack::myStack() {
-    stackList = new SinglyLinkedList();
+    numElements = 0;
 }
 
 myStack::~myStack() {
-    delete stackList;
 }
 
 void myStack::push(int v) {
-    stackList->addVal(v);
+   
+}
+
+int myStack::pop() {
+    //TODO
+    return 0;
 }
 
 int myStack::peek() {
-    return stackList->getRoot();
+    //TODO
+    return 0;
 }
