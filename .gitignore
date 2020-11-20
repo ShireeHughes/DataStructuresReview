@@ -1,1 +1,5 @@
 /.DS_Store/
+*.xcuserstate
+a.out
+*.xcworkspace
+*.o
