@@ -1,5 +1,14 @@
 /.DS_Store/
 *.xcuserstate
 a.out
-*.xcworkspace
+/*.xcworkspace/
 *.o
+/*.xcuserstate/
+*.plist
+*.xcworkspacedata
+C++/.DS_Store
+C++/LinkedLists/.DS_Store
+C++/StacksArraysQueues/.DS_Store
+C++/myStack
+C++/myStack.dSYM/Contents/Resources/DWARF/myStack
+C++/myQueue.dSYM/Contents/Resources/DWARF/myQueue
