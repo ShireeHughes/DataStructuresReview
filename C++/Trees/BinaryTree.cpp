@@ -122,6 +122,9 @@ int max(int x, int y, int z) {
     return (max_temp > z) ? max_temp : z;
 }
 
+/*
+ * //https://www.geeksforgeeks.org/diameter-of-a-binary-tree/
+ */
 int BinaryTree::getDiameter(Node * n) {
     if(n==NULL || !hasChild(n)) {
         return 0;
