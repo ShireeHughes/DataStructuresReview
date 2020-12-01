@@ -16,6 +16,7 @@ STACK = myStack
 QUEUE = myQueue
 REVERSED_LINKED_LIST = reversedLinkedList
 BINARY_TREES = binaryTree
+PRETTY_PRINT = prettyPrint
 
 # -------------------
 # TARGETS
@@ -24,6 +25,7 @@ BINARY_TREES = binaryTree
 # - queue
 # - reversedLL
 # - binary
+# - prettyprint
 # -------------------
 
 stack: $(STACK)
@@ -47,6 +49,11 @@ binary: $(BINARY_TREES)
 $(BINARY_TREES): Trees/Main.cpp
 	$(CC) $(CFLAGS) -o $(BINARY_TREES) Trees/Main.cpp Trees/BinaryTree.cpp
 
+prettyprint: $(PRETTY_PRINT)
+
+$(PRETTY_PRINT): General/Main.cpp
+	$(CC) $(CFLAGS) -o $(PRETTY_PRINT) General/Main.cpp General/Manipulators.cpp
+
 #Run Executables
 getDiameter: $(BINARY_TREES)
 	./$(BINARY_TREES)
@@ -60,3 +67,5 @@ clean:
 	$(RM) $(REVERSED_LINKED_LIST).dSYM
 	$(RM) $(BINARY_TREES)
 	$(RM) $(BINARY_TREES).dSYM
+	$(RM) $(PRETTY_PRINT)
+	$(RM) $(PRETTY_PRINT).dSYM
