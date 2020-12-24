@@ -13,7 +13,7 @@ RAYTRACER = raytracer
 #TARGET
 all: $(RAYTRACER)
 
-$(RAYTRACER): main.cpp
+$(RAYTRACER): main.cpp vec3.cpp
 	$(CC) $(CFLAGS) -o $(RAYTRACER) main.cpp
 
 image: $(RAYTRACER)
